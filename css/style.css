@@ -1,27 +1,9 @@
 body {
-    --main-bg-color: #fff;
-    --secondary-bg-color: #ebebeb;
-    --feature-color: #28b6ab;
-    --footer-bg-color: #757575;
-
-    --text-color: #282d2d;
-    --tag-text-color: #c2c0c0;
-    --feature-text-color: #fff;
-    --subtitle-text-color: #939a9a;
-    --footer-text-color: #dcdcdc;
-    --feature-text-style: "Bodoni MT";
-
-    --border-color: #c2c2c2;
-    --darker-border-color: #6b6b6b;
-    --lighter-border-color: #dadada;
-
-    --offset: 134px;
-
-    padding: var(--offset) 0 0 0;
+    padding: 134px 0 0 0;
     margin: 0;
 
-    background-color: var(--main-bg-color);
-    color: var(--text-color);
+    background-color: #fff;
+    color: #282d2d;
     font-family: Arial, sans-serif;
     font-size: 18px;
     text-align: center;
@@ -29,18 +11,18 @@ body {
 }
 
 h1 {
-    font-family: var(--feature-text-style), serif;
+    font-family: "Bodoni MT", serif;
     font-weight: normal;
     font-style: italic;
     font-size: 48px;
-    color: var(--feature-color);
+    color: #28b6ab;
     margin: auto;
     text-align: center;
 }
 
 h2 {
     font-size: 24px;
-    color: var(--feature-color);
+    color: #28b6ab;
     padding-bottom: 15px;
 }
 
@@ -53,7 +35,7 @@ h2 {
 }
 
 a.button {
-    background-color: var(--feature-color);
+    background-color: #28b6ab;
     padding: 10px 15px 10px 15px;
     color: #fff;
     -webkit-transition: background-color 0.2s ease-in;
@@ -65,13 +47,13 @@ a.button:hover {
 }
 
 #header {
-    background-color: var(--feature-color);
-    color: var(--feature-text-color);
+    background-color: #28b6ab;
+    color: #fff;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: var(--border-color);
+    border-color: #c2c2c2;
     padding: 60px 20px 60px 20px;
-    font-family: var(--feature-text-style), serif;
+    font-family: "Bodoni MT", serif;
     font-weight: bold;
     font-size: 60px;
     text-align: center;
@@ -99,7 +81,7 @@ a.button:hover {
 }
 
 #contact h1 {
-    color: var(--feature-text-color);
+    color: #fff;
 }
 
 #contact p {
@@ -118,21 +100,21 @@ a.button:hover {
 }
 
 #footer {
-    background-color: var(--footer-bg-color);
-    color: var(--footer-text-color);
+    background-color: #757575;
+    color: #dcdcdc;
     padding: 40px 20px 40px 20px;
     font-size: 14px;
 }
 
 #footer a {
-    color: var(--footer-text-color);
+    color: #dcdcdc;
 }
 
 .navbar {
-    background-color: var(--secondary-bg-color);
+    background-color: #ebebeb;
     border-style: solid;
     border-width: 0 0 4px 0;
-    border-color: var(--border-color);
+    border-color: #c2c2c2;
     padding: 40px 10px 40px 10px;
     text-align: left;
 }
@@ -156,27 +138,27 @@ a.button:hover {
 }
 
 .main-style {
-    background-color: var(--main-bg-color);
+    background-color: #fff;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: var(--lighter-border-color);
+    border-color: #dadada;
     padding: 80px 20px 80px 20px;
 }
 
 .secondary-style {
-    background-color: var(--secondary-bg-color);
+    background-color: #ebebeb;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: var(--lighter-border-color);
+    border-color: #dadada;
     padding: 80px 20px 80px 20px;
 }
 
 .feature-style {
-    background-color: var(--feature-color);
-    color: var(--feature-text-color);
+    background-color: #28b6ab;
+    color: #fff;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: var(--darker-border-color);
+    border-color: #6b6b6b;
     padding: 80px 20px 80px 20px;
 }
 
@@ -202,11 +184,11 @@ a.button:hover {
 }
 
 .tag {
-    font-family: var(--feature-text-style), serif;
+    font-family: "Bodoni MT", serif;
     font-weight: normal;
     font-style: italic;
     font-size: 24px;
-    color: var(--tag-text-color);
+    color: #c2c0c0;
 }
 
 .open-tag {
@@ -228,7 +210,7 @@ a.button:hover {
 }
 
 .subtitle-subtitle {
-    color: var(--subtitle-text-color);
+    color: #939a9a;
     font-style: italic;
     font-size: 18px;
 }
