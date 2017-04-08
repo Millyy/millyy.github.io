@@ -1,0 +1,326 @@
+body {
+    padding: 134px 0 0 0;
+    margin: 0;
+
+    background-color: #fff;
+    color: #282d2d;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.75;
+}
+
+h1 {
+    font-family: "Bodoni MT", serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 48px;
+    color: #28b6ab;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #28b6ab;
+    padding-bottom: 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    -webkit-transition: color 0.15s ease-in;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+a.button {
+    background-color: #28b6ab;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    -webkit-transition: background-color 0.2s ease-in;
+}
+
+a.button:hover {
+    background-color: #757575;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #28b6ab;
+    color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #c2c2c2;
+    padding: 60px 20px 60px 20px;
+    font-family: "Bodoni MT", serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+#header .content {
+    text-align: center;
+}
+
+#about h1 {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+#about .content {
+    max-width: 640px;
+}
+
+#projects h2 {
+    padding-bottom: 0;
+}
+
+#projects .subtitle-subtitle {
+    padding-bottom: 20px;
+}
+
+#contact h1 {
+    color: #fff;
+}
+
+#contact p {
+    text-align: center;
+    max-width: 380px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.logo img {
+    -webkit-transition: opacity 0.2s ease-in;
+}
+
+.logo img:hover {
+    opacity: 0.5;
+}
+
+#footer {
+    background-color: #757575;
+    color: #dcdcdc;
+    padding: 40px 20px 40px 20px;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #dcdcdc;
+}
+
+.navbar {
+    background-color: #ebebeb;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: #c2c2c2;
+    padding: 40px 10px 40px 10px;
+    text-align: left;
+}
+
+.navbar h1 {
+    color: #282d2d;
+}
+
+.navbar .title {
+    margin-top: -35px;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.content {
+    margin: auto;
+    max-width: 980px;
+    text-align: left;
+}
+
+.main-style {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #dadada;
+    padding: 80px 20px 80px 20px;
+}
+
+.secondary-style {
+    background-color: #ebebeb;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #dadada;
+    padding: 80px 20px 80px 20px;
+}
+
+.feature-style {
+    background-color: #28b6ab;
+    color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #6b6b6b;
+    padding: 80px 20px 80px 20px;
+}
+
+.indent {
+    padding-left: 90px;
+}
+
+.internship-images {
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.internship-images img:first-child {
+    float: left;
+}
+
+.internship-images img:last-child {
+    float: right;
+}
+
+.title {
+    display: inline-block;
+}
+
+.tag {
+    font-family: "Bodoni MT", serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 24px;
+    color: #c2c0c0;
+}
+
+.open-tag {
+    text-align: left;
+}
+
+.close-tag {
+    text-align: right;
+}
+
+.logo {
+    text-align: center;
+    padding: 90px 30px 30px 30px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+}
+
+.subtitle-subtitle {
+    color: #939a9a;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.project-content {
+    padding-top: 90px;
+}
+
+.project-image {
+    float: left;
+    padding: 0 25px 25px 0;
+}
+
+.project-description {
+    min-height: 342px;
+    padding-bottom: 30px;
+}
+
+.project-button {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.email-logo {
+    display: inline;
+    padding-right: 50px;
+}
+
+@media (max-width: 980px) {
+    .internship-images img {
+        padding: 5px;
+    }
+
+    .internship-images img:first-child {
+        float: none;
+    }
+
+    .internship-images img:last-child {
+        float: none;
+    }
+}
+
+@media (max-width: 870px) {
+
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+@media (max-width: 650px) {
+    #header {
+        font-size: 10vw;
+    }
+
+    .project-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 3.2vw;
+    }
+
+    .indent {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 560px) {
+    #its-my-name h1 {
+        font-size: 7.5vw;
+    }
+
+    #its-my-name .tag {
+        font-size: 4vw;
+    }
+
+    .email-logo {
+        padding-right: 10px;
+    }
+}
