@@ -13,3 +13,6 @@ The goal was to make a simple website for people interested in seeing things tha
 
 ## Things to do
 - Figure out how to make the website HTTPS. github.io does not support LetsEncrypt.com
+- Improve responsiveness
+- Change image border style?
+- Add more turtles
