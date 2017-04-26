@@ -1,10 +1,15 @@
 # millyy.github.io
-My personal website! You can check it out at http://www.celiastokman.com
+My personal website! You can check it out at celiastokman.com
 The goal was to make a simple website for people interested in seeing things that I've done, mostly from internships and projects.
+
+## Latest Update
+Hosting has been moved to Firebase for added security! At the time of writing this, the SSL certificate is now processing. The safe address is https://portfolio-site-8d87b.firebaseapp.com/
+Yay, learning!
 
 ## Things I've learned
 - More JavaScript, HTML and CSS techniques
 - How mockups in Photoshop help to make a website with better visual flow
+- Setting up Firebase
 
 ## Challenges
 - Initially I used CSS variables for better flexibility, but learned that they are not compatible with older versions of Internet Explorer
@@ -12,7 +17,7 @@ The goal was to make a simple website for people interested in seeing things tha
 - Unable to publicise code from internship projects
 
 ## Things to do
-- Figure out how to make the website HTTPS. github.io does not support LetsEncrypt.com
+- ~~Figure out how to make the website HTTPS. github.io does not support LetsEncrypt.com~~ Added 26/04/17!
 - Improve responsiveness
 - Change image border style?
 - Add more turtles
