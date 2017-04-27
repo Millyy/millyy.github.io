@@ -1,12 +1,12 @@
 # millyy.github.io
-My personal website! You can check it out at celiastokman.com
+My personal website! You can check it out at https://www.celiastokman.com
 The goal was to make a simple website for people interested in seeing things that I've done, mostly from internships and projects.
 
 ## Latest Update
-Hosting has been moved to Firebase for added security! At the time of writing this, the SSL certificate is now processing. The safe address is https://portfolio-site-8d87b.firebaseapp.com/
+Hosting has been moved to Firebase for added security! At the time of writing this, the SSL certificate is now processing. The safer address is https://portfolio-site-8d87b.firebaseapp.com/
 Yay, learning!
 
-New issue! www.celiastokman.com doesn't work! Only celiastokman.com! Attempting to fix tonight with Firebase...
+~~New issue! www.celiastokman.com doesn't work! Only celiastokman.com! Attempting to fix tonight with Firebase...~~ Fixed!
 
 ## Things I've learned
 - More JavaScript, HTML and CSS techniques
