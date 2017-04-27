@@ -6,6 +6,8 @@ The goal was to make a simple website for people interested in seeing things tha
 Hosting has been moved to Firebase for added security! At the time of writing this, the SSL certificate is now processing. The safe address is https://portfolio-site-8d87b.firebaseapp.com/
 Yay, learning!
 
+New issue! www.celiastokman.com doesn't work! Only celiastokman.com! Attempting to fix tonight with Firebase...
+
 ## Things I've learned
 - More JavaScript, HTML and CSS techniques
 - How mockups in Photoshop help to make a website with better visual flow
