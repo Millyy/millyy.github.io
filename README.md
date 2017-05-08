@@ -21,5 +21,6 @@ Yay, learning!
 ## Things to do
 - ~~Figure out how to make the website HTTPS. github.io does not support LetsEncrypt.com~~ Added 26/04/17!
 - Improve responsiveness
+- - Current responsive issue: goes super tiny on phones! Bootstrap not implemented properly?
 - Change image border style?
 - Add more turtles
