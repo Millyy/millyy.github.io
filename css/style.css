@@ -10,6 +10,10 @@ body {
     line-height: 1.75;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1 {
     font-family: "Bodoni MT", serif;
     font-weight: normal;
@@ -302,10 +306,6 @@ a.button:hover {
 }
 
 @media (max-width: 600px) {
-    body {
-        font-size: 3.2vw;
-    }
-
     .indent {
         padding-left: 45px;
     }
