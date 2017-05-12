@@ -12,6 +12,8 @@ Yay, learning!
 - More JavaScript, HTML and CSS techniques
 - How mockups in Photoshop help to make a website with better visual flow
 - Setting up Firebase
+- About meta tags and search engine optimization
+- How to do the "open command line here" thing since the new Windows 10 update changed it to PowerShell. If you type cmd in the File Explorer address bar, it opens the command line to wherever you've navigated to. Handy!
 
 ## Challenges
 - Initially I used CSS variables for better flexibility, but learned that they are not compatible with older versions of Internet Explorer
@@ -20,9 +22,8 @@ Yay, learning!
 
 ## Things to do
 - ~~Figure out how to make the website HTTPS. github.io does not support LetsEncrypt.com~~ Added 26/04/17!
-- Improve responsiveness
+- ~~Improve responsiveness~~ Improved 12/05/17!
 - - ~~Current responsive issue: goes super tiny on phones! Bootstrap not implemented properly?~~ Fixed 8/05/17!
-- - Email/LinkedIn icons get pushed onto a new line in phone layouts.
-
+- - ~~Email/LinkedIn icons get pushed onto a new line in phone layouts.~~
 - Change image border style?
 - Add more turtles
