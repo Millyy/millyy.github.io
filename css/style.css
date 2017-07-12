@@ -22,7 +22,7 @@ img {
 h1 {
     font-family: "Celia Sans", serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 45px;
     color: #28b6ab;
     margin: auto;
     text-align: center;
@@ -61,8 +61,8 @@ a.button:hover {
     border-width: 0 0 1px 0;
     border-color: #c2c2c2;
     padding: 60px 20px 40px 20px;
-    font-family: "Celia Sans", serif;
-    font-size: 60px;
+    font-family: "Arial", serif;
+    font-size: 52px;
     text-align: center;
 }
 
